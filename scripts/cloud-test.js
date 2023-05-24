@@ -31,7 +31,7 @@ export const options = {
     },
   },
   duration: '1m',
-  vus: 50,
+  vus: 2000,
   thresholds: {
     http_req_duration: ['p(95)<500'],
   },
